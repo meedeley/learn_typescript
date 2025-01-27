@@ -1,4 +1,3 @@
-import { name } from "./../node_modules/ci-info/index.d";
 describe("Array data type", () => {
   it("Should be array in javascript", () => {
     const names: string[] = ["Nichola", "Budi", "Joko"];
