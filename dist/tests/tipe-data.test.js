@@ -1,10 +1,10 @@
 "use strict";
-describe('Data Type', () => {
+describe("Data Type", () => {
     it("should must declare", () => {
-        const name = "Nichola Saputra";
+        let name = "Nichola Saputra";
         expect(name).toBe("Nichola Saputra");
-        const balance = 1000000;
-        const isVip = true;
+        let balance = 1000000;
+        let isVip = true;
         console.info(name);
         console.info(balance);
         console.info(isVip);
